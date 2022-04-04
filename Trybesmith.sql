@@ -22,4 +22,3 @@ CREATE TABLE Trybesmith.Products (
   orderId INTEGER,
   FOREIGN KEY (orderId) REFERENCES Trybesmith.Orders (id)
 );
-
